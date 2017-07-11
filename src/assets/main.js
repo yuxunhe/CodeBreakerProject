@@ -24,7 +24,7 @@ function setMessage(val) {
 function getResults(input) {
   var numCorrect = 0;
   var string = "<div class=\"row\"><span class=\"col-md-6\">' + input + '</span><div class=\"col-md-6\">";
-  for (var i = 0; i < imput.length; i++){
+  for (var i = 0; i < input.length; i++){
     var char = input[i];
     if (char == answer.value[i]) {
       string += "<span class=\"glyphicon glyphicon-ok\"></span>";
