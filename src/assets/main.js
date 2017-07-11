@@ -52,7 +52,7 @@ function guess() {
     }
     let input = document.getElementById('user-guess');
     //add functionality to guess function here
-    if (!validateInput(input.value)) {
+    if (!validateInput(input)) {
       return false;
     } else {
       attempt.value++;
